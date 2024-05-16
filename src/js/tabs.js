@@ -26,7 +26,6 @@ function toggleActiveStateOnMenuItem(targetId) {
 }
 
 function toggleTabVisibility(targetId) {
-  console.log("fire");
   const tabs = document.querySelectorAll('.tab');
   tabs.forEach(tab => tab.classList.remove('active'));
   
