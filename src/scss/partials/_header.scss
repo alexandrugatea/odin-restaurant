@@ -4,10 +4,11 @@ header {
     backdrop-filter: blur(7px);
     position: fixed;
     top: 14px;
-    left: 0;
-    right: 0;
-    width: calc(100% - 140px);
-    margin: auto;
+    left:70px;
+    right: 70px;
+    // width: calc(100% - 140px);
+    max-width: 1440px;
+    margin: 0 auto;
     border-radius: 14px;
     z-index: 100;
 

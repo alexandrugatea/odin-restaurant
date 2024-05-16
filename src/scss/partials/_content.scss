@@ -1,5 +1,7 @@
 .tab {
     display: none;
+    background-color: $dark;
+    color: $light;
 
     &.active {
         display: block;

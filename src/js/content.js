@@ -1,4 +1,3 @@
-import createContainer from './container';
 import {menuOptions} from './options'
 
 // Import page sections
