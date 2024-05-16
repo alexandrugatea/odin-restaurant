@@ -7,3 +7,8 @@
     font-weight: $weight;
     font-style: normal;
 }
+
+body{
+    @include font(400);
+}
+
