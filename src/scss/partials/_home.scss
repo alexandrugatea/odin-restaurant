@@ -23,6 +23,10 @@
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         z-index: -1;
+
+        @media screen and (max-width: 767px) {
+            background-color: rgba(0, 0, 0, 0.75);
+        }
     }
 
     .container {
@@ -37,6 +41,11 @@
         color: $light;
         font-size: 91px;
         margin-bottom: 28px;
+        text-align: center;
+
+        @media screen and (max-width: 767px) {
+            font-size: 56px;
+        }
     }
 
     &-text {

@@ -12,11 +12,22 @@ header {
     border-radius: 14px;
     z-index: 100;
 
+    @media screen and (max-width: 767px) {
+        top: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+    }
+
     .nav {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+        }
     }
 
     .logo {
@@ -31,14 +42,16 @@ header {
 
     }
 
-
-
     .menu {
 
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: 35px;
+
+        @media screen and (max-width: 767px) {
+            gap: 14px;
+        }
 
         .menu-link {
             display: block;
