@@ -1,0 +1,15 @@
+.tab {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+.tab {
+    width: 100%;
+    padding: 140px 0;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+}
